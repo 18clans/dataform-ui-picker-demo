@@ -1,0 +1,12 @@
+<StackLayout style="padding:30">
+  <RadDataForm [source]="myRadiusSelection">
+
+    <TKEntityProperty tkDataFormProperty name="radius" displayName="Radius" index="0" [valuesProvider]="radiusName">
+      <TKPropertyEditor tkEntityPropertyEditor type="Picker">
+        <TKPropertyEditorStyle tkPropertyEditorStyle ios:editorHorizontalOffset="4">
+        </TKPropertyEditorStyle>
+      </TKPropertyEditor>
+
+    </TKEntityProperty>
+  </RadDataForm>
+</StackLayout>
